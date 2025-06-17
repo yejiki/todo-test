@@ -1,0 +1,67 @@
+body{
+  font-size: 1.3rem;
+}
+#wrap{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+  text-align: center;
+  margin: 100px auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+h1{
+  font-size: 5rem;
+  padding: 30px;
+}
+
+/* TodoAdd */
+.add{
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: center;
+  width: 90%;
+
+}
+input{
+  border: 1px solid #aaa;
+  color: #5a5a5a;
+  padding-left: 10px;
+  border-radius: 10px;
+  width: 90%;
+}
+.plus-btn{
+  background-color: #000;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+  margin-left: 10px;
+}
+
+/* list */
+.list{
+  width: 90%;
+  height: 50px;
+}
+
+
+/* item */
+.item{
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px 0 15px;
+  font-size: 1.5rem;
+}
+.item button{
+  border: 0;
+  cursor: pointer;
+  padding: 10px;
+  background-color: transparent;
+  width: 15%;
+  object-fit: cover;
+}
