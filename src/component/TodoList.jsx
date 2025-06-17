@@ -1,4 +1,4 @@
-import Todoitem from "./Todoitem"
+import Todoitem from "./TodoItem"
 
 const TodoList = ({todos , onDelete}) => {
   return (
